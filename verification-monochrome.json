@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-11",
+  "reference": "https://www.harvey.ai/",
+  "typescript": "passed",
+  "originalApplicationSources": "unchanged",
+  "entryPoints": "five Chinese pages with verified asset content hashes",
+  "desktop": [
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases",
+      "width": 1265
+    },
+    {
+      "content": 1280,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/search",
+      "width": 1280
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/settings",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases/demo-housing/overview",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases/demo-housing/materials",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases/demo-housing/similar-cases",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases/demo-housing/timeline",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases/demo-housing/evidence",
+      "width": 1265
+    },
+    {
+      "content": 1280,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases/demo-housing/research",
+      "width": 1280
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases/demo-housing/documents",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "count": 0,
+      "nonNeutral": [],
+      "route": "#/cases/demo-housing/tasks",
+      "width": 1265
+    }
+  ],
+  "mobile": [
+    {
+      "content": 390,
+      "route": "#/",
+      "width": 390
+    },
+    {
+      "content": 375,
+      "route": "#/cases",
+      "width": 375
+    },
+    {
+      "content": 390,
+      "route": "#/search",
+      "width": 390
+    },
+    {
+      "content": 375,
+      "route": "#/settings",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "route": "#/cases/demo-housing/overview",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "route": "#/cases/demo-housing/materials",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "route": "#/cases/demo-housing/similar-cases",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "route": "#/cases/demo-housing/timeline",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "route": "#/cases/demo-housing/evidence",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "route": "#/cases/demo-housing/research",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "route": "#/cases/demo-housing/documents",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "route": "#/cases/demo-housing/tasks",
+      "width": 375
+    }
+  ],
+  "tablet": {
+    "content": 753,
+    "width": 753
+  },
+  "themeSwitchPreservesDraft": [
+    {
+      "canvas": "rgb(245, 245, 237)",
+      "draft": "请整理本案需要进一步核对的材料。",
+      "height": 720,
+      "inputBottom": 628.6015625,
+      "sidebar": "rgb(16, 60, 48)",
+      "theme": "ao"
+    },
+    {
+      "canvas": "rgb(252, 248, 245)",
+      "draft": "请整理本案需要进一步核对的材料。",
+      "height": 720,
+      "inputBottom": 628.6015625,
+      "sidebar": "rgb(255, 255, 255)",
+      "theme": "cooley"
+    },
+    {
+      "canvas": "rgb(255, 255, 255)",
+      "draft": "请整理本案需要进一步核对的材料。",
+      "height": 720,
+      "inputBottom": 628.6015625,
+      "sidebar": "rgb(17, 17, 17)",
+      "theme": "harvey"
+    }
+  ],
+  "mobileAccountControl": "visible",
+  "consoleErrors": []
+}

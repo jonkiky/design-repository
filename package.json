@@ -1,0 +1,9 @@
+{
+  "name": "caiyan-design-options",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "start": "python3 serve.py",
+    "test": "node scripts/check.cjs"
+  }
+}

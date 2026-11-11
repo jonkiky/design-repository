@@ -1,0 +1,487 @@
+{
+  "date": "2026-11-11",
+  "automatedDemoAssertions": 29,
+  "typescript": "passed",
+  "realApi": {
+    "checks": 9,
+    "data": "isolated temporary fixtures",
+    "modelsInvoked": false
+  },
+  "downloadedWord": "ZIP and OOXML XML integrity plus Chinese content passed",
+  "mobileChecks": [
+    {
+      "content": 375,
+      "headings": [
+        "让复杂案情，有据可循。",
+        "继续手头的工作"
+      ],
+      "path": "#/",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "我的案件"
+      ],
+      "path": "#/cases",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 390,
+      "headings": [
+        "类案检索"
+      ],
+      "path": "#/search",
+      "theme": "harvey",
+      "width": 390
+    },
+    {
+      "content": 375,
+      "headings": [
+        "写作配置",
+        "文风与内容组织"
+      ],
+      "path": "#/settings",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "当前研究目标"
+      ],
+      "path": "#/cases/demo-housing/overview",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "文书与研究文档"
+      ],
+      "path": "#/cases/demo-housing/materials",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "类案"
+      ],
+      "path": "#/cases/demo-housing/similar-cases",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "案情与时间线"
+      ],
+      "path": "#/cases/demo-housing/timeline",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "证据分析与待核事项"
+      ],
+      "path": "#/cases/demo-housing/evidence",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "结果与研究"
+      ],
+      "path": "#/cases/demo-housing/research",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "文书草稿"
+      ],
+      "path": "#/cases/demo-housing/documents",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "任务记录"
+      ],
+      "path": "#/cases/demo-housing/tasks",
+      "theme": "harvey",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "让复杂案情，有据可循。",
+        "继续手头的工作"
+      ],
+      "path": "#/",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "我的案件"
+      ],
+      "path": "#/cases",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 390,
+      "headings": [
+        "类案检索"
+      ],
+      "path": "#/search",
+      "theme": "ao",
+      "width": 390
+    },
+    {
+      "content": 375,
+      "headings": [
+        "写作配置",
+        "文风与内容组织"
+      ],
+      "path": "#/settings",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "当前研究目标"
+      ],
+      "path": "#/cases/demo-housing/overview",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "文书与研究文档"
+      ],
+      "path": "#/cases/demo-housing/materials",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "类案"
+      ],
+      "path": "#/cases/demo-housing/similar-cases",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "案情与时间线"
+      ],
+      "path": "#/cases/demo-housing/timeline",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "证据分析与待核事项"
+      ],
+      "path": "#/cases/demo-housing/evidence",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "结果与研究"
+      ],
+      "path": "#/cases/demo-housing/research",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "文书草稿"
+      ],
+      "path": "#/cases/demo-housing/documents",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "任务记录"
+      ],
+      "path": "#/cases/demo-housing/tasks",
+      "theme": "ao",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "让复杂案情，有据可循。",
+        "继续手头的工作"
+      ],
+      "path": "#/",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "我的案件"
+      ],
+      "path": "#/cases",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 390,
+      "headings": [
+        "类案检索"
+      ],
+      "path": "#/search",
+      "theme": "cooley",
+      "width": 390
+    },
+    {
+      "content": 375,
+      "headings": [
+        "写作配置",
+        "文风与内容组织"
+      ],
+      "path": "#/settings",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "当前研究目标"
+      ],
+      "path": "#/cases/demo-housing/overview",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "文书与研究文档"
+      ],
+      "path": "#/cases/demo-housing/materials",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "类案"
+      ],
+      "path": "#/cases/demo-housing/similar-cases",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "案情与时间线"
+      ],
+      "path": "#/cases/demo-housing/timeline",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "证据分析与待核事项"
+      ],
+      "path": "#/cases/demo-housing/evidence",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "结果与研究"
+      ],
+      "path": "#/cases/demo-housing/research",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "文书草稿"
+      ],
+      "path": "#/cases/demo-housing/documents",
+      "theme": "cooley",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "任务记录"
+      ],
+      "path": "#/cases/demo-housing/tasks",
+      "theme": "cooley",
+      "width": 375
+    }
+  ],
+  "desktopChecks": [
+    {
+      "content": 1265,
+      "headings": [
+        "让复杂案情，有据可循。",
+        "继续手头的工作"
+      ],
+      "path": "#/",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "我的案件"
+      ],
+      "path": "#/cases",
+      "width": 1265
+    },
+    {
+      "content": 1280,
+      "headings": [
+        "类案检索"
+      ],
+      "path": "#/search",
+      "width": 1280
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "写作配置",
+        "文风与内容组织"
+      ],
+      "path": "#/settings",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "当前研究目标"
+      ],
+      "path": "#/cases/demo-housing/overview",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "文书与研究文档"
+      ],
+      "path": "#/cases/demo-housing/materials",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "类案"
+      ],
+      "path": "#/cases/demo-housing/similar-cases",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "案情与时间线"
+      ],
+      "path": "#/cases/demo-housing/timeline",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "证据分析与待核事项"
+      ],
+      "path": "#/cases/demo-housing/evidence",
+      "width": 1265
+    },
+    {
+      "content": 1280,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "结果与研究"
+      ],
+      "path": "#/cases/demo-housing/research",
+      "width": 1280
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "文书草稿"
+      ],
+      "path": "#/cases/demo-housing/documents",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "headings": [
+        "云栖花园 · 逾期交付纠纷",
+        "任务记录"
+      ],
+      "path": "#/cases/demo-housing/tasks",
+      "width": 1265
+    }
+  ],
+  "browserErrors": [],
+  "directFileOpening": "Not tested: automation browser allows HTTP and HTTPS only",
+  "mobileAccountControls": "logout visible in expanded mobile menu",
+  "interactionChecks": [
+    "theme switching retains draft and filters",
+    "research follow-up",
+    "waiting task continuation",
+    "timeline revision and conflict protection",
+    "18-field filter panel and filtered search",
+    "source overlay above fullscreen research",
+    "Word download"
+  ]
+}

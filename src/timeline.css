@@ -1,0 +1,45 @@
+.timeline-panel>.section-heading {gap: 16px;}
+.timeline-panel>.section-heading>.button {flex-shrink: 0;}
+.timeline-version {margin: 8px 0 22px;}
+.timeline-edit-toolbar {position: sticky; top: 80px; z-index: 12; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 14px 18px; margin: 18px 0 24px; background: #fff; border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 5px 20px #26365c0a;}
+.timeline-edit-toolbar>span {font-size: 12px; color: #60738f;}
+.timeline-edit-toolbar small {display: block; margin-top: 4px; font-size: 10px; color: #8999ad;}
+.timeline-edit-actions,.timeline-event-actions {display: flex; align-items: center; gap: 10px;}
+.timeline-edit-actions .button {font-size: 12px;}
+.timeline-editor-card {min-width: 0; padding: 16px 22px 22px; margin: 0;}
+.timeline-editor-card legend {font-size: 12px; color: #607ba9; padding: 0 8px;}
+.timeline-event-actions {justify-content: flex-end; margin-bottom: 4px;}
+.timeline-event-actions button {min-width: 32px; min-height: 32px; justify-content: center;}
+.timeline-event-actions button:disabled {opacity: .35; cursor: default;}
+.timeline-editor-card label {font-size: 12px;}
+.timeline-editor-card input,.timeline-editor-card textarea,.timeline-editor-card select {font-size: 13px; width: 100%; min-width: 0;}
+.timeline-editor-card .two-cols {grid-template-columns: repeat(2,minmax(0,1fr));}
+.timeline-editor-card select {text-overflow: ellipsis;}
+.timeline-kind-field {min-width: 0; margin: 16px 0;}
+.timeline-kind-field>label {margin: 0 0 8px;}
+.timeline-kind-field>small {display: block; margin-top: 6px; color: #8999ad; font-size: 10px;}
+.timeline-kind-control {position: relative;}
+.timeline-kind-control input {padding-right: 40px;}
+.timeline-kind-toggle {position: absolute; right: 1px; top: 1px; bottom: 1px; width: 36px; display: flex; align-items: center; justify-content: center; color: #7b8ca5; border-radius: 0 6px 6px 0;}
+.timeline-kind-toggle:disabled {opacity: .45;}
+.timeline-kind-options {position: absolute; top: calc(100% + 5px); left: 0; right: 0; z-index: 14; max-height: 240px; overflow: auto; background: white; border: 1px solid var(--line); border-radius: 8px; padding: 5px; box-shadow: 0 8px 25px #26365c20;}
+.timeline-kind-options>button {width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 10px 12px; text-align: left; font-size: 12px; color: #5e6f85; border-radius: 5px; overflow-wrap: anywhere;}
+.timeline-kind-options>button:hover,.timeline-kind-options>button.active {background: #f1f4fc;}
+.timeline-kind-options>button[aria-selected=true] {color: var(--blue);}
+.timeline-material-help {margin: -4px 0 10px;}
+.timeline-material-actions {display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 11px;}
+.timeline-material-actions .text-button {text-align: left; overflow-wrap: anywhere;}
+.timeline-card>p,.timeline-original p {white-space: pre-wrap; overflow-wrap: anywhere;}
+.timeline-card>div {flex-wrap: wrap;}
+.timeline-original {margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12px; color: #7b8ca5;}
+.timeline-original summary {cursor: pointer;}
+.timeline-original p {font-size: 12px; line-height: 1.9; margin: 12px 0;}
+.timeline-original .text-button {max-width: 100%; overflow-wrap: anywhere; text-align: left;}
+@media(max-width:650px) {
+  .timeline-panel>.section-heading {flex-wrap: wrap;}
+  .timeline-edit-toolbar {top: 58px; padding: 12px;}
+  .timeline-edit-actions {width: 100%; gap: 6px; flex-wrap: wrap;}
+  .timeline-edit-actions .button {font-size: 11px; padding: 9px;}
+  .timeline-editor-card {padding: 12px 15px 17px;}
+  .timeline-editor-card .two-cols {grid-template-columns: minmax(0,1fr); gap: 0;}
+}
