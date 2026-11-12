@@ -1,5 +1,5 @@
-/* Harvey-inspired monochrome. Shared components and behavior stay intact. */
-html[data-theme=harvey] {
+/* Shared Harvey typography and layout for the monochrome, blue and red editions. */
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) {
   --canvas:#fff;
   --surface:#fff;
   --surface-soft:#f6f6f6;
@@ -20,161 +20,161 @@ html[data-theme=harvey] {
 }
 
 /* A dark, compact navigation frame around an open white work surface. */
-html[data-theme=harvey] .sidebar {border:0;padding-top:31px}
-html[data-theme=harvey] .sidebar .brand {gap:0;color:#fff;margin-left:14px;margin-bottom:28px}
-html[data-theme=harvey] .sidebar .brand-mark {display:none}
-html[data-theme=harvey] .brand-copy {font-size:34px;font-weight:400;letter-spacing:6px}
-html[data-theme=harvey] .brand-copy small {font-size:9px;letter-spacing:2px;opacity:.6;margin-top:9px}
-html[data-theme=harvey] .sidebar .workspace-label {color:#b5b5b5;opacity:1}
-html[data-theme=harvey] .sidebar .nav-label {color:#929292;opacity:1;letter-spacing:1px}
-html[data-theme=harvey] .sidebar nav a {color:#c9c9c9;border:0;border-radius:4px;font-weight:400}
-html[data-theme=harvey] .sidebar nav a.active {background:#333;color:#fff;border:0;box-shadow:none;font-weight:500}
-html[data-theme=harvey] .sidebar nav a:hover:not(.active) {background:#222;color:#fff}
-html[data-theme=harvey] .sidebar .count,
-html[data-theme=harvey] .sidebar .settings-link .tag {background:#292929;color:#bcbcbc}
-html[data-theme=harvey] .sidebar .settings-link {color:#c9c9c9}
-html[data-theme=harvey] .sidebar .settings-link.active {background:#333;color:#fff}
-html[data-theme=harvey] .sidebar .case-navigation,
-html[data-theme=harvey] .sidebar .sidebar-note,
-html[data-theme=harvey] .sidebar .profile {border-color:#333}
-html[data-theme=harvey] .sidebar-note {opacity:1;color:#ccc}
-html[data-theme=harvey] .sidebar-note strong {font:13px/1.8 var(--serif)}
-html[data-theme=harvey] .sidebar-note p {color:#a3a3a3;opacity:1}
-html[data-theme=harvey] .sidebar .avatar {background:#e8e8e8;color:#111}
-html[data-theme=harvey] .profile .icon-button:hover {background:#333;color:#fff}
-html[data-theme=harvey] .topbar {background:#fff;border-color:#e5e5e5}
-html[data-theme=harvey] .style-switcher {border-radius:5px;background:#f5f5f5;border-color:#e5e5e5;padding:2px}
-html[data-theme=harvey] .style-switcher button {border-radius:3px;box-shadow:none}
-html[data-theme=harvey] .style-switcher button[aria-pressed=true] {background:#fff;border-color:#ccc;color:#111}
-html[data-theme=harvey] .style-switcher i,
-html[data-theme=harvey] .mode-dot,
-html[data-theme=harvey] .live-label i {background:#777}
-html[data-theme=harvey] .style-switcher [data-style=harvey] i {background:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar {border:0;padding-top:31px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .brand {gap:0;color:#fff;margin-left:14px;margin-bottom:28px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .brand-mark {display:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .brand-copy {font-size:34px;font-weight:400;letter-spacing:6px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .brand-copy small {font-size:9px;letter-spacing:2px;opacity:.6;margin-top:9px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .workspace-label {color:#b5b5b5;opacity:1}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .nav-label {color:#929292;opacity:1;letter-spacing:1px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a {color:#c9c9c9;border:0;border-radius:4px;font-weight:400}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a.active {background:#333;color:#fff;border:0;box-shadow:none;font-weight:500}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a:hover:not(.active) {background:#222;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .count,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link .tag {background:#292929;color:#bcbcbc}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link {color:#c9c9c9}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link.active {background:#333;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .case-navigation,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .sidebar-note,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .profile {border-color:#333}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note {opacity:1;color:#ccc}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note strong {font:13px/1.8 var(--serif)}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note p {color:#a3a3a3;opacity:1}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .avatar {background:#e8e8e8;color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .profile .icon-button:hover {background:#333;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .topbar {background:#fff;border-color:#e5e5e5}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher {border-radius:5px;background:#f5f5f5;border-color:#e5e5e5;padding:2px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button {border-radius:3px;box-shadow:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button[aria-pressed=true] {background:#fff;border-color:#ccc;color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher i,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .mode-dot,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .live-label i {background:#777}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher [data-style=harvey] i {background:#111}
 
 /* Editorial typography, split introduction, no decorative paper illustration. */
-html[data-theme=harvey] .studio-hero {display:block;padding:36px 0 34px;min-height:0;border-bottom:1px solid #d6d6d6}
-html[data-theme=harvey] .hero-copy {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:42px;align-items:start}
-html[data-theme=harvey] .hero-kicker {grid-column:1/-1;margin-bottom:30px;font-size:10px;letter-spacing:1.6px;color:#6e6e6e}
-html[data-theme=harvey] .hero-kicker>span {border-radius:0;width:4px;height:4px}
-html[data-theme=harvey] .studio-hero h1 {grid-column:1;grid-row:2/4;font-family:var(--serif);font-size:clamp(38px,4.2vw,64px);line-height:1.28;letter-spacing:1px;font-weight:400;margin:0;color:#111}
-html[data-theme=harvey] .studio-hero h1 em {color:#111}
-html[data-theme=harvey] .hero-copy>p {grid-column:2;grid-row:2;align-self:end;font-size:15px;color:#414141;line-height:1.85;letter-spacing:0;max-width:330px;margin:3px 0 20px}
-html[data-theme=harvey] .hero-copy .mobile-break {display:block}
-html[data-theme=harvey] .hero-actions {grid-column:2;grid-row:3;gap:20px;align-items:center;flex-wrap:wrap}
-html[data-theme=harvey] .hero-actions .button {min-height:44px;padding:11px 18px;background:#111;border:1px solid #111;border-radius:4px;color:#fff;font-size:12px}
-html[data-theme=harvey] .hero-actions .button:hover {background:#333;border-color:#333}
-html[data-theme=harvey] .hero-secondary {font-size:12px;color:#222;gap:8px}
-html[data-theme=harvey] .hero-secondary:hover {text-decoration:underline;text-underline-offset:5px}
-html[data-theme=harvey] .hero-aside {position:absolute;right:0;top:37px;width:auto;display:block}
-html[data-theme=harvey] .hero-date {color:#797979;font-size:10px;letter-spacing:0}
-html[data-theme=harvey] .hero-art,
-html[data-theme=harvey] .hero-art-caption {display:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero {display:block;padding:36px 0 34px;min-height:0;border-bottom:1px solid #d6d6d6}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:42px;align-items:start}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker {grid-column:1/-1;margin-bottom:30px;font-size:10px;letter-spacing:1.6px;color:#6e6e6e}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker>span {border-radius:0;width:4px;height:4px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {grid-column:1;grid-row:2/4;font-family:var(--serif);font-size:clamp(38px,4.2vw,64px);line-height:1.28;letter-spacing:1px;font-weight:400;margin:0;color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 em {color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {grid-column:2;grid-row:2;align-self:end;font-size:15px;color:#414141;line-height:1.85;letter-spacing:0;max-width:330px;margin:3px 0 20px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy .mobile-break {display:block}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions {grid-column:2;grid-row:3;gap:20px;align-items:center;flex-wrap:wrap}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button {min-height:44px;padding:11px 18px;background:#111;border:1px solid #111;border-radius:4px;color:#fff;font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button:hover {background:#333;border-color:#333}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary {font-size:12px;color:#222;gap:8px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary:hover {text-decoration:underline;text-underline-offset:5px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-aside {position:absolute;right:0;top:37px;width:auto;display:block}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-date {color:#797979;font-size:10px;letter-spacing:0}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-art,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-art-caption {display:none}
 
 /* Flat, ruled data surfaces and meaningful grayscale status distinctions. */
-html[data-theme=harvey] .studio-metrics {padding:25px 0 24px;border-color:#dedede}
-html[data-theme=harvey] .studio-metric-value strong {font:400 39px/1.45 var(--serif);letter-spacing:-1px;color:#111}
-html[data-theme=harvey] .studio-metric-title {letter-spacing:0;color:#606060}
-html[data-theme=harvey] .studio-metric p {color:#757575}
-html[data-theme=harvey] .studio-work-grid {gap:30px;margin-top:30px}
-html[data-theme=harvey] .studio-section-title h2 {font-family:var(--serif);font-size:22px;font-weight:500;letter-spacing:0}
-html[data-theme=harvey] .section-index {font-size:10px;color:#888}
-html[data-theme=harvey] .studio-case-list {border-top:1px solid #222}
-html[data-theme=harvey] .studio-case {padding:19px 0;gap:14px}
-html[data-theme=harvey] .studio-case h3 {font-size:13px;font-weight:500}
-html[data-theme=harvey] .studio-case-no {font-family:var(--sans);font-size:10px}
-html[data-theme=harvey] .studio-attention {background:#f6f6f6;border:1px solid #dedede;border-radius:4px;padding:22px}
-html[data-theme=harvey] .studio-attention h2 {font-size:20px}
-html[data-theme=harvey] .progress-summary>strong {font:400 44px/1.3 var(--serif);color:#111}
-html[data-theme=harvey] .progress-segments {height:4px;border-radius:0;gap:2px}
-html[data-theme=harvey] .progress-segments .prepare,
-html[data-theme=harvey] .studio-status-list i.prepare {background:#d0d0d0}
-html[data-theme=harvey] .progress-segments .running,
-html[data-theme=harvey] .studio-status-list i.running {background:#777}
-html[data-theme=harvey] .progress-segments .attention,
-html[data-theme=harvey] .studio-status-list i.attention {background:#aaa}
-html[data-theme=harvey] .progress-segments .complete,
-html[data-theme=harvey] .studio-status-list i.complete {background:#222}
-html[data-theme=harvey] .metric-attention {background:#e9e9e9;border:1px solid #bbb;color:#222;border-radius:2px}
-html[data-theme=harvey] .tag {border:1px solid #ddd;border-radius:3px;background:#f5f5f5;color:#575757;line-height:1.3}
-html[data-theme=harvey] .tag.green {background:#ededed;border-color:#ededed;color:#333}
-html[data-theme=harvey] .tag.blue {background:#eee;border-color:#ccc;color:#222}
-html[data-theme=harvey] .tag.amber {background:#fff;border-color:#888;color:#333;border-style:dashed}
-html[data-theme=harvey] .tag.red {background:#2b2b2b;border-color:#2b2b2b;color:#fff}
-html[data-theme=harvey] .studio-tool {border-radius:4px;background:#fff;border-color:#d8d8d8;box-shadow:none;padding:23px 20px 28px}
-html[data-theme=harvey] .studio-tool h3 {font-family:var(--serif);font-size:20px;font-weight:500}
-html[data-theme=harvey] .studio-tool:first-child {background:#151515;border-color:#151515;color:#fff}
-html[data-theme=harvey] .studio-tool:first-child h3,
-html[data-theme=harvey] .studio-tool:first-child>div {color:#fff}
-html[data-theme=harvey] .studio-tool:first-child p,
-html[data-theme=harvey] .studio-tool:first-child svg,
-html[data-theme=harvey] .studio-tool:first-child>span {color:#c3c3c3}
-html[data-theme=harvey] .studio-tool:hover {transform:none;border-color:#222;background:#f5f5f5}
-html[data-theme=harvey] .studio-tool:first-child:hover {background:#292929}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metrics {padding:25px 0 24px;border-color:#dedede}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value strong {font:400 39px/1.45 var(--serif);letter-spacing:-1px;color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-title {letter-spacing:0;color:#606060}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric p {color:#757575}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-work-grid {gap:30px;margin-top:30px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title h2 {font-family:var(--serif);font-size:22px;font-weight:500;letter-spacing:0}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .section-index {font-size:10px;color:#888}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case-list {border-top:1px solid #222}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case {padding:19px 0;gap:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case h3 {font-size:13px;font-weight:500}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case-no {font-family:var(--sans);font-size:10px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention {background:#f6f6f6;border:1px solid #dedede;border-radius:4px;padding:22px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention h2 {font-size:20px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-summary>strong {font:400 44px/1.3 var(--serif);color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments {height:4px;border-radius:0;gap:2px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .prepare,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.prepare {background:#d0d0d0}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .running,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.running {background:#777}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .attention,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.attention {background:#aaa}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .complete,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.complete {background:#222}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .metric-attention {background:#e9e9e9;border:1px solid #bbb;color:#222;border-radius:2px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag {border:1px solid #ddd;border-radius:3px;background:#f5f5f5;color:#575757;line-height:1.3}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.green {background:#ededed;border-color:#ededed;color:#333}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.blue {background:#eee;border-color:#ccc;color:#222}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.amber {background:#fff;border-color:#888;color:#333;border-style:dashed}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.red {background:#2b2b2b;border-color:#2b2b2b;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool {border-radius:4px;background:#fff;border-color:#d8d8d8;box-shadow:none;padding:23px 20px 28px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {font-family:var(--serif);font-size:20px;font-weight:500}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child {background:#151515;border-color:#151515;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child h3,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child>div {color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child svg,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child>span {color:#c3c3c3}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:hover {transform:none;border-color:#222;background:#f5f5f5}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child:hover {background:#292929}
 
 /* The same black-and-white vocabulary carries through every working screen. */
-html[data-theme=harvey] .page-heading h1,
-html[data-theme=harvey] .case-heading h1,
-html[data-theme=harvey] .case-card-title h3,
-html[data-theme=harvey] .markdown h2 {font-weight:400}
-html[data-theme=harvey] .case-card:hover {border-color:#aaa;box-shadow:none}
-html[data-theme=harvey] .button,
-html[data-theme=harvey] .card {box-shadow:none}
-html[data-theme=harvey] .notice.warning,
-html[data-theme=harvey] .inline-notice.error {background:#f5f5f5;color:#333;border-color:#bbb;border-left:3px solid #333}
-html[data-theme=harvey] .inline-notice.success {background:#f5f5f5;color:#222;border-color:#ddd}
-html[data-theme=harvey] .danger {color:#333;text-decoration:underline;text-underline-offset:3px}
-html[data-theme=harvey] .button.danger-solid {background:#111;border-color:#111;color:#fff}
-html[data-theme=harvey] .research-message.user>div {background:#f2f2f2;border-radius:5px;color:#222}
-html[data-theme=harvey] .research-chat-turn {border-left-color:#333;background:#f8f8f8}
-html[data-theme=harvey] .research-welcome-icon {background:#111;color:#fff;border-radius:5px}
-html[data-theme=harvey] .research-welcome h3 {font-weight:400}
-html[data-theme=harvey] .research-prompt:hover:not(:disabled) {background:#f6f6f6;border-color:#999}
-html[data-theme=harvey] .research-source-row.is-selected {background:#f5f5f5}
-html[data-theme=harvey] .design-help {border-radius:6px;box-shadow:0 20px 80px #0003}
-html[data-theme=harvey] .design-help::backdrop {background:#0006}
-html[data-theme=harvey] .design-help-icon,
-html[data-theme=harvey] .design-help-note {border-radius:4px}
-html[data-theme=harvey] .login-card {border:1px solid #d5d5d5}
-html[data-theme=harvey] .login-brand .brand-mark {background:#111;border-color:#111;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .page-heading h1,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-heading h1,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-card-title h3,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .markdown h2 {font-weight:400}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-card:hover {border-color:#aaa;box-shadow:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .card {box-shadow:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .notice.warning,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .inline-notice.error {background:#f5f5f5;color:#333;border-color:#bbb;border-left:3px solid #333}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .inline-notice.success {background:#f5f5f5;color:#222;border-color:#ddd}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .danger {color:#333;text-decoration:underline;text-underline-offset:3px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.danger-solid {background:#111;border-color:#111;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-message.user>div {background:#f2f2f2;border-radius:5px;color:#222}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-chat-turn {border-left-color:#333;background:#f8f8f8}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome-icon {background:#111;color:#fff;border-radius:5px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome h3 {font-weight:400}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-prompt:hover:not(:disabled) {background:#f6f6f6;border-color:#999}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-source-row.is-selected {background:#f5f5f5}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help {border-radius:6px;box-shadow:0 20px 80px #0003}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help::backdrop {background:#0006}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help-icon,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help-note {border-radius:4px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .login-card {border:1px solid #d5d5d5}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .login-brand .brand-mark {background:#111;border-color:#111;color:#fff}
 
 @media(min-width:651px) {
-  html[data-theme=harvey] .navigation-collapsed .sidebar .brand {margin-left:0;justify-content:center}
-  html[data-theme=harvey] .navigation-collapsed .sidebar .brand-mark {display:flex;border:0;background:transparent;color:#fff}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar .brand {margin-left:0;justify-content:center}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar .brand-mark {display:flex;border:0;background:transparent;color:#fff}
 }
 @media(max-width:1200px) {
-  html[data-theme=harvey] .hero-copy {column-gap:28px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
-  html[data-theme=harvey] .studio-hero h1 {font-size:44px}
-  html[data-theme=harvey] .hero-copy>p {font-size:13px}
-  html[data-theme=harvey] .hero-actions {gap:15px}
-  html[data-theme=harvey] .hero-actions .button {padding:10px 15px}
-  html[data-theme=harvey] .hero-secondary {font-size:11px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy {column-gap:28px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:44px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {font-size:13px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions {gap:15px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button {padding:10px 15px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary {font-size:11px}
 }
 @media(max-width:900px) {
-  html[data-theme=harvey] .studio-hero {padding:28px 0}
-  html[data-theme=harvey] .hero-copy {display:block}
-  html[data-theme=harvey] .hero-kicker {margin-bottom:22px}
-  html[data-theme=harvey] .studio-hero h1 {font-size:44px;margin-bottom:20px}
-  html[data-theme=harvey] .hero-copy>p {max-width:100%;margin-bottom:20px}
-  html[data-theme=harvey] .hero-aside {display:none}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero {padding:28px 0}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy {display:block}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker {margin-bottom:22px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:44px;margin-bottom:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {max-width:100%;margin-bottom:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-aside {display:none}
 }
 @media(max-width:650px) {
-  html[data-theme=harvey] .sidebar {padding:15px 18px}
-  html[data-theme=harvey] .studio-hero {padding:30px 0 27px}
-  html[data-theme=harvey] .studio-hero h1 {font-size:43px;letter-spacing:0;line-height:1.3;margin-bottom:18px}
-  html[data-theme=harvey] .hero-copy>p {font-size:13px;line-height:1.9}
-  html[data-theme=harvey] .hero-actions {gap:22px}
-  html[data-theme=harvey] .hero-kicker {font-size:10px;letter-spacing:1px;margin-bottom:23px}
-  html[data-theme=harvey] .studio-metrics {padding:23px 0}
-  html[data-theme=harvey] .studio-metric-value strong {font-size:34px}
-  html[data-theme=harvey] .studio-section-title h2 {font-size:20px}
-  html[data-theme=harvey] .studio-work-grid {margin-top:28px}
-  html[data-theme=harvey] .studio-attention {padding:20px}
-  html[data-theme=harvey] .studio-tool {padding:20px 16px 27px}
-  html[data-theme=harvey] .studio-tool h3 {font-size:18px}
-  html[data-theme=harvey] .style-switcher button {padding:6px 8px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar {padding:15px 18px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero {padding:30px 0 27px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:43px;letter-spacing:0;line-height:1.3;margin-bottom:18px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {font-size:13px;line-height:1.9}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions {gap:22px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker {font-size:10px;letter-spacing:1px;margin-bottom:23px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metrics {padding:23px 0}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value strong {font-size:34px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title h2 {font-size:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-work-grid {margin-top:28px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention {padding:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool {padding:20px 16px 27px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {font-size:18px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button {padding:6px 8px}
 }
 @media print {
-  html[data-theme=harvey] .studio-tool:first-child {background:#fff;color:#111}
-  html[data-theme=harvey] .studio-tool:first-child h3,
-  html[data-theme=harvey] .studio-tool:first-child p {color:#111}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child {background:#fff;color:#111}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child h3,
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child p {color:#111}
 }

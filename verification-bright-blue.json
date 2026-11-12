@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-11",
+  "theme": "harvey-bright-blue",
+  "label": "蓝灰",
+  "reference": "User-provided Screenshot 2026-11-11 at 7.12.25 PM.png",
+  "referenceColorConversion": "Embedded Display ICC profile converted to sRGB",
+  "accent": "#2C67C5",
+  "sidebar": "#FAFAFB",
+  "whiteTextContrast": 5.45,
+  "typescript": "passed",
+  "entryPoints": 8,
+  "originalApplicationSources": "unchanged",
+  "layout": [
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/cases",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1280,
+      "font": "15px",
+      "route": "#/search",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1280
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/settings",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/cases/demo-housing/overview",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/cases/demo-housing/materials",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/cases/demo-housing/similar-cases",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/cases/demo-housing/timeline",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/cases/demo-housing/evidence",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1280,
+      "font": "15px",
+      "route": "#/cases/demo-housing/research",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1280
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/cases/demo-housing/documents",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 1265,
+      "font": "15px",
+      "route": "#/cases/demo-housing/tasks",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 390,
+      "font": "15px",
+      "route": "#/search",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 390
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/settings",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases/demo-housing/overview",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases/demo-housing/materials",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases/demo-housing/similar-cases",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases/demo-housing/timeline",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases/demo-housing/evidence",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases/demo-housing/research",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases/demo-housing/documents",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "font": "15px",
+      "route": "#/cases/demo-housing/tasks",
+      "sidebar": "rgb(242, 243, 245)",
+      "theme": "harvey-bright-blue",
+      "width": 375
+    }
+  ],
+  "mobileNavigation": {
+    "choices": [
+      "黑白",
+      "黑白蓝",
+      "黑白红",
+      "蓝灰",
+      "深庭",
+      "珊瑚"
+    ],
+    "content": 375,
+    "sidebarBackground": "rgb(242, 243, 245)",
+    "sidebarVisible": "flex",
+    "width": 375
+  },
+  "tablet": {
+    "choices": 6,
+    "content": 753,
+    "picker": "flex",
+    "width": 753
+  },
+  "draftPreservation": [
+    {
+      "content": 1280,
+      "draft": "整理需要进一步核对的材料。",
+      "theme": "harvey",
+      "width": 1280
+    },
+    {
+      "content": 1280,
+      "draft": "整理需要进一步核对的材料。",
+      "theme": "harvey-blue",
+      "width": 1280
+    },
+    {
+      "content": 1280,
+      "draft": "整理需要进一步核对的材料。",
+      "theme": "harvey-red",
+      "width": 1280
+    },
+    {
+      "content": 1280,
+      "draft": "整理需要进一步核对的材料。",
+      "theme": "ao",
+      "width": 1280
+    },
+    {
+      "content": 1280,
+      "draft": "整理需要进一步核对的材料。",
+      "theme": "cooley",
+      "width": 1280
+    },
+    {
+      "content": 1280,
+      "draft": "整理需要进一步核对的材料。",
+      "theme": "harvey-bright-blue",
+      "width": 1280
+    }
+  ],
+  "consoleErrors": [],
+  "lighterSidebarUpdate": {
+    "date": "2026-11-11",
+    "previousSidebar": "#F2F3F5",
+    "currentSidebar": "#FAFAFB",
+    "check": {
+      "content": 1265,
+      "primary": "rgb(44, 103, 197)",
+      "sidebar": "rgb(250, 250, 251)",
+      "theme": "harvey-bright-blue",
+      "width": 1265
+    }
+  }
+}

@@ -153,9 +153,9 @@ html[data-theme=cooley] .research-welcome-icon{background:var(--mono-ffebe3,#ffe
 .shell:has(.research-chat-workspace.is-fullscreen) .workspace-feedback:not(:empty){z-index:140}
 .research-chat-workspace.is-fullscreen .research-sidebar{background:var(--canvas)}
 
-html[data-theme=harvey]{--mono-f6f8fb:#f8f8f8;--mono-167461:#5f5f5f;--mono-9d6b21:#707070;--mono-3158d52e:#5959592e;--mono-f8faff:#fafafa;--mono-3158d512:#59595912;--mono-a74c4c:#5f5f5f;--mono-f5f7fa:#f7f7f7;--mono-edf7f3:#f5f5f5;--mono-ddf0e7:#ebebeb;--mono-fbf6ea:#f6f6f6;--mono-f2e8d1:#e8e8e8;--mono-fcf0ef:#f2f2f2;--mono-f4dcda:#e1e1e1;--mono-3158d51c:#5959591c;--mono-fcfdff:#fdfdfd;--mono-74a094:#969696;--mono-f6f8fd:#f8f8f8;--mono-28396c03:#39393903;--mono-35488807:#49494907;--mono-f9fbff:#fbfbfb;--mono-28396c08:#39393908;--mono-f0f2f7:#f2f2f2;--mono-fcf8ef:#f8f8f8;--mono-f0e6d1:#e7e7e7;--mono-b98a42:#8f8f8f;--mono-eff2f7:#f2f2f2;--mono-f0f3f8:#f3f3f3;--mono-fbfcfe:#fcfcfc;--mono-f7f9fd:#f9f9f9;--mono-f3f6fa:#f6f6f6;--mono-1a305815:#2e2e2e15;--mono-f0f3f7:#f3f3f3;--mono-fafbfe:#fbfbfb;--mono-f9fbfd:#fbfbfb;--mono-26365c12:#35353512;--mono-f3f6fb:#f6f6f6;--mono-fcf7ed:#f7f7f7;--mono-f6f8fc:#f8f8f8;--mono-f7f9fc:#f9f9f9;--mono-fafbff:#fbfbfb;--mono-f7f9fe:#f9f9f9;--mono-8c692c:#6c6c6c;--mono-b34444:#5c5c5c;--mono-963939:#4d4d4d;--mono-dceae3:#e7e7e7;--mono-f0f8f4:#f6f6f6;--mono-fff3be:#f2f2f2;--mono-4357880a:#5656560a;--mono-263c6a29:#3b3b3b29;--mono-edf0f5:#f0f0f0;--mono-f8fafe:#fafafa;--mono-e6d8b6:#d9d9d9;--mono-fbfcff:#fcfcfc;--mono-537a68:#707070;--mono-f5f7f8:#f7f7f7;--mono-558273:#777777;--mono-28396c25:#39393925;--mono-28396c20:#39393920;--mono-eaf0f1:#efefef;--mono-3c6664:#5d5d5d;--mono-65706e:#6e6e6e;--mono-f6f8f7:#f8f8f8;--mono-e3e9e6:#e8e8e8;--mono-e8edeb:#ececec;--mono-26365c0a:#3535350a;--mono-26365c20:#35353520;--mono-946b2d:#6f6f6f;--mono-fffbf2:#fbfbfb;--mono-f0e2c7:#e3e3e3;--mono-8f682b:#6c6c6c;--mono-faf0dc:#f1f1f1;--mono-976b22:#6f6f6f;--mono-24385424:#36363624;--mono-24385412:#36363612;--mono-fff0b5:#efefef;--mono-a65e50:#6c6c6c;--mono-fff5f3:#f7f7f7;--mono-a65246:#636363;--mono-f0d9d4:#dedede;--mono-fcece8:#efefef;--mono-dfb7af:#bfbfbf;--mono-ae5547:#676767;--mono-f7f6f2:#f6f6f6;--mono-f4f3ef:#f3f3f3;--mono-252521:#252525;--mono-565751:#565656;--mono-72736b:#727272;--mono-282a24:#292929;--mono-080a08:#090909;--mono-ebebe4:#eaeaea;--mono-deded5:#dddddd;--mono-eeeee7:#ededed;--mono-353930:#373737;--mono-277256:#606060;--mono-895d1a:#626262;--mono-24281706:#26262606;--mono-f5f5ed:#f4f4f4;--mono-fffef9:#fefefe;--mono-f0f3eb:#f2f2f2;--mono-173f33:#363636;--mono-4c665b:#606060;--mono-697c71:#777777;--mono-18533e:#454545;--mono-0b3828:#2d2d2d;--mono-e8eee0:#ececec;--mono-d9dfd0:#dddddd;--mono-103c30:#323232;--mono-f5f5e9:#f4f4f4;--mono-fcf8f5:#f9f9f9;--mono-fff2ed:#f4f4f4;--mono-332d32:#2f2f2f;--mono-655960:#5c5c5c;--mono-7d6a72:#6f6f6f;--mono-c03d39:#595959;--mono-9f2927:#424242;--mono-ffebe5:#efefef;--mono-ecdcd6:#dfdfdf;--mono-4b3c42:#404040;--mono-73362c05:#42424205;--mono-a23935:#4f4f4f;--mono-e8f1ea:#efefef;--mono-276844:#585858;--mono-fbf0d9:#f1f1f1;--mono-805715:#5b5b5b;--mono-fce9e5:#ededed;--mono-a33632:#4d4d4d;--mono-fff7e9:#f8f8f8;--mono-805d25:#606060;--mono-eadcc0:#dddddd;--mono-343a2f:#383838;--mono-1c684e:#565656;--mono-e7534b:#727272;--mono-65866b:#7d7d7d;--mono-17231e66:#20202066;--mono-f8ecd4:#ededed;--mono-608b62:#7f7f7f;--mono-c4c7bb:#c5c5c5;--mono-d1ad69:#b0b0b0;--mono-698f78:#858585;--mono-292c25:#2b2b2b;--mono-b9beb1:#bcbcbc;--mono-efefe7:#eeeeee;--mono-30362204:#33333304;--mono-6d8f73:#868686;--mono-d4ddaa:#d7d7d7;--mono-f8f6e9:#f5f5f5;--mono-dce5c9:#e1e1e1;--mono-173e30:#353535;--mono-285345:#494949;--mono-143e31:#343434;--mono-f8f7e7:#f6f6f6;--mono-d9e2ba:#dddddd;--mono-b4c7b2:#c1c1c1;--mono-f5f5e7:#f4f4f4;--mono-9aac7855:#a4a4a455;--mono-1b513e:#444444;--mono-eaf0df:#ededed;--mono-5d7f54:#757575;--mono-edf1e4:#efefef;--mono-d7443e:#636363;--mono-fff0e9:#f3f3f3;--mono-df4b44:#6a6a6a;--mono-ffede6:#f0f0f0;--mono-b33833:#525252;--mono-b93936:#545454;--mono-a73631:#4e4e4e;--mono-ed6257:#7f7f7f;--mono-c9574b:#6e6e6e;--mono-e4d9ed:#dddddd;--mono-9c2f2c:#464646;--mono-e7bd87:#c2c2c2;--mono-efbfb3:#c8c8c8;--mono-efd0c4:#d6d6d6;--mono-f7d6c3:#dcdcdc;--mono-8a4f23:#585858;--mono-c14f43:#666666;--mono-f0eaf2:#ececec;--mono-e0d7e3:#dadada;--mono-ffebe3:#efefef;--mono-edd5cc:#d9d9d9;--mono-f0eaf4:#ececec;--mono-e1d9e8:#dcdcdc;--mono-f3eedc:#eeeeee;--mono-e5dfc9:#dfdfdf;--mono-e9efe6:#ededed;--mono-d7e1d1:#dedede;--mono-c13f39:#5a5a5a}
-/* Harvey-inspired monochrome. Shared components and behavior stay intact. */
-html[data-theme=harvey] {
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]){--mono-f6f8fb:#f8f8f8;--mono-167461:#5f5f5f;--mono-9d6b21:#707070;--mono-3158d52e:#5959592e;--mono-f8faff:#fafafa;--mono-3158d512:#59595912;--mono-a74c4c:#5f5f5f;--mono-f5f7fa:#f7f7f7;--mono-edf7f3:#f5f5f5;--mono-ddf0e7:#ebebeb;--mono-fbf6ea:#f6f6f6;--mono-f2e8d1:#e8e8e8;--mono-fcf0ef:#f2f2f2;--mono-f4dcda:#e1e1e1;--mono-3158d51c:#5959591c;--mono-fcfdff:#fdfdfd;--mono-74a094:#969696;--mono-f6f8fd:#f8f8f8;--mono-28396c03:#39393903;--mono-35488807:#49494907;--mono-f9fbff:#fbfbfb;--mono-28396c08:#39393908;--mono-f0f2f7:#f2f2f2;--mono-fcf8ef:#f8f8f8;--mono-f0e6d1:#e7e7e7;--mono-b98a42:#8f8f8f;--mono-eff2f7:#f2f2f2;--mono-f0f3f8:#f3f3f3;--mono-fbfcfe:#fcfcfc;--mono-f7f9fd:#f9f9f9;--mono-f3f6fa:#f6f6f6;--mono-1a305815:#2e2e2e15;--mono-f0f3f7:#f3f3f3;--mono-fafbfe:#fbfbfb;--mono-f9fbfd:#fbfbfb;--mono-26365c12:#35353512;--mono-f3f6fb:#f6f6f6;--mono-fcf7ed:#f7f7f7;--mono-f6f8fc:#f8f8f8;--mono-f7f9fc:#f9f9f9;--mono-fafbff:#fbfbfb;--mono-f7f9fe:#f9f9f9;--mono-8c692c:#6c6c6c;--mono-b34444:#5c5c5c;--mono-963939:#4d4d4d;--mono-dceae3:#e7e7e7;--mono-f0f8f4:#f6f6f6;--mono-fff3be:#f2f2f2;--mono-4357880a:#5656560a;--mono-263c6a29:#3b3b3b29;--mono-edf0f5:#f0f0f0;--mono-f8fafe:#fafafa;--mono-e6d8b6:#d9d9d9;--mono-fbfcff:#fcfcfc;--mono-537a68:#707070;--mono-f5f7f8:#f7f7f7;--mono-558273:#777777;--mono-28396c25:#39393925;--mono-28396c20:#39393920;--mono-eaf0f1:#efefef;--mono-3c6664:#5d5d5d;--mono-65706e:#6e6e6e;--mono-f6f8f7:#f8f8f8;--mono-e3e9e6:#e8e8e8;--mono-e8edeb:#ececec;--mono-26365c0a:#3535350a;--mono-26365c20:#35353520;--mono-946b2d:#6f6f6f;--mono-fffbf2:#fbfbfb;--mono-f0e2c7:#e3e3e3;--mono-8f682b:#6c6c6c;--mono-faf0dc:#f1f1f1;--mono-976b22:#6f6f6f;--mono-24385424:#36363624;--mono-24385412:#36363612;--mono-fff0b5:#efefef;--mono-a65e50:#6c6c6c;--mono-fff5f3:#f7f7f7;--mono-a65246:#636363;--mono-f0d9d4:#dedede;--mono-fcece8:#efefef;--mono-dfb7af:#bfbfbf;--mono-ae5547:#676767;--mono-f7f6f2:#f6f6f6;--mono-f4f3ef:#f3f3f3;--mono-252521:#252525;--mono-565751:#565656;--mono-72736b:#727272;--mono-282a24:#292929;--mono-080a08:#090909;--mono-ebebe4:#eaeaea;--mono-deded5:#dddddd;--mono-eeeee7:#ededed;--mono-353930:#373737;--mono-277256:#606060;--mono-895d1a:#626262;--mono-24281706:#26262606;--mono-f5f5ed:#f4f4f4;--mono-fffef9:#fefefe;--mono-f0f3eb:#f2f2f2;--mono-173f33:#363636;--mono-4c665b:#606060;--mono-697c71:#777777;--mono-18533e:#454545;--mono-0b3828:#2d2d2d;--mono-e8eee0:#ececec;--mono-d9dfd0:#dddddd;--mono-103c30:#323232;--mono-f5f5e9:#f4f4f4;--mono-fcf8f5:#f9f9f9;--mono-fff2ed:#f4f4f4;--mono-332d32:#2f2f2f;--mono-655960:#5c5c5c;--mono-7d6a72:#6f6f6f;--mono-c03d39:#595959;--mono-9f2927:#424242;--mono-ffebe5:#efefef;--mono-ecdcd6:#dfdfdf;--mono-4b3c42:#404040;--mono-73362c05:#42424205;--mono-a23935:#4f4f4f;--mono-e8f1ea:#efefef;--mono-276844:#585858;--mono-fbf0d9:#f1f1f1;--mono-805715:#5b5b5b;--mono-fce9e5:#ededed;--mono-a33632:#4d4d4d;--mono-fff7e9:#f8f8f8;--mono-805d25:#606060;--mono-eadcc0:#dddddd;--mono-343a2f:#383838;--mono-1c684e:#565656;--mono-e7534b:#727272;--mono-65866b:#7d7d7d;--mono-17231e66:#20202066;--mono-f8ecd4:#ededed;--mono-608b62:#7f7f7f;--mono-c4c7bb:#c5c5c5;--mono-d1ad69:#b0b0b0;--mono-698f78:#858585;--mono-292c25:#2b2b2b;--mono-b9beb1:#bcbcbc;--mono-efefe7:#eeeeee;--mono-30362204:#33333304;--mono-6d8f73:#868686;--mono-d4ddaa:#d7d7d7;--mono-f8f6e9:#f5f5f5;--mono-dce5c9:#e1e1e1;--mono-173e30:#353535;--mono-285345:#494949;--mono-143e31:#343434;--mono-f8f7e7:#f6f6f6;--mono-d9e2ba:#dddddd;--mono-b4c7b2:#c1c1c1;--mono-f5f5e7:#f4f4f4;--mono-9aac7855:#a4a4a455;--mono-1b513e:#444444;--mono-eaf0df:#ededed;--mono-5d7f54:#757575;--mono-edf1e4:#efefef;--mono-d7443e:#636363;--mono-fff0e9:#f3f3f3;--mono-df4b44:#6a6a6a;--mono-ffede6:#f0f0f0;--mono-b33833:#525252;--mono-b93936:#545454;--mono-a73631:#4e4e4e;--mono-ed6257:#7f7f7f;--mono-c9574b:#6e6e6e;--mono-e4d9ed:#dddddd;--mono-9c2f2c:#464646;--mono-e7bd87:#c2c2c2;--mono-efbfb3:#c8c8c8;--mono-efd0c4:#d6d6d6;--mono-f7d6c3:#dcdcdc;--mono-8a4f23:#585858;--mono-c14f43:#666666;--mono-f0eaf2:#ececec;--mono-e0d7e3:#dadada;--mono-ffebe3:#efefef;--mono-edd5cc:#d9d9d9;--mono-f0eaf4:#ececec;--mono-e1d9e8:#dcdcdc;--mono-f3eedc:#eeeeee;--mono-e5dfc9:#dfdfdf;--mono-e9efe6:#ededed;--mono-d7e1d1:#dedede;--mono-c13f39:#5a5a5a}
+/* Shared Harvey typography and layout for the monochrome, blue and red editions. */
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) {
   --canvas:#fff;
   --surface:#fff;
   --surface-soft:#f6f6f6;
@@ -176,161 +176,440 @@ html[data-theme=harvey] {
 }
 
 /* A dark, compact navigation frame around an open white work surface. */
-html[data-theme=harvey] .sidebar {border:0;padding-top:31px}
-html[data-theme=harvey] .sidebar .brand {gap:0;color:#fff;margin-left:14px;margin-bottom:28px}
-html[data-theme=harvey] .sidebar .brand-mark {display:none}
-html[data-theme=harvey] .brand-copy {font-size:34px;font-weight:400;letter-spacing:6px}
-html[data-theme=harvey] .brand-copy small {font-size:9px;letter-spacing:2px;opacity:.6;margin-top:9px}
-html[data-theme=harvey] .sidebar .workspace-label {color:#b5b5b5;opacity:1}
-html[data-theme=harvey] .sidebar .nav-label {color:#929292;opacity:1;letter-spacing:1px}
-html[data-theme=harvey] .sidebar nav a {color:#c9c9c9;border:0;border-radius:4px;font-weight:400}
-html[data-theme=harvey] .sidebar nav a.active {background:#333;color:#fff;border:0;box-shadow:none;font-weight:500}
-html[data-theme=harvey] .sidebar nav a:hover:not(.active) {background:#222;color:#fff}
-html[data-theme=harvey] .sidebar .count,
-html[data-theme=harvey] .sidebar .settings-link .tag {background:#292929;color:#bcbcbc}
-html[data-theme=harvey] .sidebar .settings-link {color:#c9c9c9}
-html[data-theme=harvey] .sidebar .settings-link.active {background:#333;color:#fff}
-html[data-theme=harvey] .sidebar .case-navigation,
-html[data-theme=harvey] .sidebar .sidebar-note,
-html[data-theme=harvey] .sidebar .profile {border-color:#333}
-html[data-theme=harvey] .sidebar-note {opacity:1;color:#ccc}
-html[data-theme=harvey] .sidebar-note strong {font:13px/1.8 var(--serif)}
-html[data-theme=harvey] .sidebar-note p {color:#a3a3a3;opacity:1}
-html[data-theme=harvey] .sidebar .avatar {background:#e8e8e8;color:#111}
-html[data-theme=harvey] .profile .icon-button:hover {background:#333;color:#fff}
-html[data-theme=harvey] .topbar {background:#fff;border-color:#e5e5e5}
-html[data-theme=harvey] .style-switcher {border-radius:5px;background:#f5f5f5;border-color:#e5e5e5;padding:2px}
-html[data-theme=harvey] .style-switcher button {border-radius:3px;box-shadow:none}
-html[data-theme=harvey] .style-switcher button[aria-pressed=true] {background:#fff;border-color:#ccc;color:#111}
-html[data-theme=harvey] .style-switcher i,
-html[data-theme=harvey] .mode-dot,
-html[data-theme=harvey] .live-label i {background:#777}
-html[data-theme=harvey] .style-switcher [data-style=harvey] i {background:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar {border:0;padding-top:31px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .brand {gap:0;color:#fff;margin-left:14px;margin-bottom:28px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .brand-mark {display:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .brand-copy {font-size:34px;font-weight:400;letter-spacing:6px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .brand-copy small {font-size:9px;letter-spacing:2px;opacity:.6;margin-top:9px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .workspace-label {color:#b5b5b5;opacity:1}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .nav-label {color:#929292;opacity:1;letter-spacing:1px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a {color:#c9c9c9;border:0;border-radius:4px;font-weight:400}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a.active {background:#333;color:#fff;border:0;box-shadow:none;font-weight:500}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a:hover:not(.active) {background:#222;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .count,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link .tag {background:#292929;color:#bcbcbc}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link {color:#c9c9c9}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link.active {background:#333;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .case-navigation,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .sidebar-note,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .profile {border-color:#333}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note {opacity:1;color:#ccc}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note strong {font:13px/1.8 var(--serif)}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note p {color:#a3a3a3;opacity:1}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .avatar {background:#e8e8e8;color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .profile .icon-button:hover {background:#333;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .topbar {background:#fff;border-color:#e5e5e5}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher {border-radius:5px;background:#f5f5f5;border-color:#e5e5e5;padding:2px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button {border-radius:3px;box-shadow:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button[aria-pressed=true] {background:#fff;border-color:#ccc;color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher i,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .mode-dot,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .live-label i {background:#777}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher [data-style=harvey] i {background:#111}
 
 /* Editorial typography, split introduction, no decorative paper illustration. */
-html[data-theme=harvey] .studio-hero {display:block;padding:36px 0 34px;min-height:0;border-bottom:1px solid #d6d6d6}
-html[data-theme=harvey] .hero-copy {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:42px;align-items:start}
-html[data-theme=harvey] .hero-kicker {grid-column:1/-1;margin-bottom:30px;font-size:10px;letter-spacing:1.6px;color:#6e6e6e}
-html[data-theme=harvey] .hero-kicker>span {border-radius:0;width:4px;height:4px}
-html[data-theme=harvey] .studio-hero h1 {grid-column:1;grid-row:2/4;font-family:var(--serif);font-size:clamp(38px,4.2vw,64px);line-height:1.28;letter-spacing:1px;font-weight:400;margin:0;color:#111}
-html[data-theme=harvey] .studio-hero h1 em {color:#111}
-html[data-theme=harvey] .hero-copy>p {grid-column:2;grid-row:2;align-self:end;font-size:15px;color:#414141;line-height:1.85;letter-spacing:0;max-width:330px;margin:3px 0 20px}
-html[data-theme=harvey] .hero-copy .mobile-break {display:block}
-html[data-theme=harvey] .hero-actions {grid-column:2;grid-row:3;gap:20px;align-items:center;flex-wrap:wrap}
-html[data-theme=harvey] .hero-actions .button {min-height:44px;padding:11px 18px;background:#111;border:1px solid #111;border-radius:4px;color:#fff;font-size:12px}
-html[data-theme=harvey] .hero-actions .button:hover {background:#333;border-color:#333}
-html[data-theme=harvey] .hero-secondary {font-size:12px;color:#222;gap:8px}
-html[data-theme=harvey] .hero-secondary:hover {text-decoration:underline;text-underline-offset:5px}
-html[data-theme=harvey] .hero-aside {position:absolute;right:0;top:37px;width:auto;display:block}
-html[data-theme=harvey] .hero-date {color:#797979;font-size:10px;letter-spacing:0}
-html[data-theme=harvey] .hero-art,
-html[data-theme=harvey] .hero-art-caption {display:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero {display:block;padding:36px 0 34px;min-height:0;border-bottom:1px solid #d6d6d6}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:42px;align-items:start}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker {grid-column:1/-1;margin-bottom:30px;font-size:10px;letter-spacing:1.6px;color:#6e6e6e}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker>span {border-radius:0;width:4px;height:4px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {grid-column:1;grid-row:2/4;font-family:var(--serif);font-size:clamp(38px,4.2vw,64px);line-height:1.28;letter-spacing:1px;font-weight:400;margin:0;color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 em {color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {grid-column:2;grid-row:2;align-self:end;font-size:15px;color:#414141;line-height:1.85;letter-spacing:0;max-width:330px;margin:3px 0 20px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy .mobile-break {display:block}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions {grid-column:2;grid-row:3;gap:20px;align-items:center;flex-wrap:wrap}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button {min-height:44px;padding:11px 18px;background:#111;border:1px solid #111;border-radius:4px;color:#fff;font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button:hover {background:#333;border-color:#333}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary {font-size:12px;color:#222;gap:8px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary:hover {text-decoration:underline;text-underline-offset:5px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-aside {position:absolute;right:0;top:37px;width:auto;display:block}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-date {color:#797979;font-size:10px;letter-spacing:0}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-art,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-art-caption {display:none}
 
 /* Flat, ruled data surfaces and meaningful grayscale status distinctions. */
-html[data-theme=harvey] .studio-metrics {padding:25px 0 24px;border-color:#dedede}
-html[data-theme=harvey] .studio-metric-value strong {font:400 39px/1.45 var(--serif);letter-spacing:-1px;color:#111}
-html[data-theme=harvey] .studio-metric-title {letter-spacing:0;color:#606060}
-html[data-theme=harvey] .studio-metric p {color:#757575}
-html[data-theme=harvey] .studio-work-grid {gap:30px;margin-top:30px}
-html[data-theme=harvey] .studio-section-title h2 {font-family:var(--serif);font-size:22px;font-weight:500;letter-spacing:0}
-html[data-theme=harvey] .section-index {font-size:10px;color:#888}
-html[data-theme=harvey] .studio-case-list {border-top:1px solid #222}
-html[data-theme=harvey] .studio-case {padding:19px 0;gap:14px}
-html[data-theme=harvey] .studio-case h3 {font-size:13px;font-weight:500}
-html[data-theme=harvey] .studio-case-no {font-family:var(--sans);font-size:10px}
-html[data-theme=harvey] .studio-attention {background:#f6f6f6;border:1px solid #dedede;border-radius:4px;padding:22px}
-html[data-theme=harvey] .studio-attention h2 {font-size:20px}
-html[data-theme=harvey] .progress-summary>strong {font:400 44px/1.3 var(--serif);color:#111}
-html[data-theme=harvey] .progress-segments {height:4px;border-radius:0;gap:2px}
-html[data-theme=harvey] .progress-segments .prepare,
-html[data-theme=harvey] .studio-status-list i.prepare {background:#d0d0d0}
-html[data-theme=harvey] .progress-segments .running,
-html[data-theme=harvey] .studio-status-list i.running {background:#777}
-html[data-theme=harvey] .progress-segments .attention,
-html[data-theme=harvey] .studio-status-list i.attention {background:#aaa}
-html[data-theme=harvey] .progress-segments .complete,
-html[data-theme=harvey] .studio-status-list i.complete {background:#222}
-html[data-theme=harvey] .metric-attention {background:#e9e9e9;border:1px solid #bbb;color:#222;border-radius:2px}
-html[data-theme=harvey] .tag {border:1px solid #ddd;border-radius:3px;background:#f5f5f5;color:#575757;line-height:1.3}
-html[data-theme=harvey] .tag.green {background:#ededed;border-color:#ededed;color:#333}
-html[data-theme=harvey] .tag.blue {background:#eee;border-color:#ccc;color:#222}
-html[data-theme=harvey] .tag.amber {background:#fff;border-color:#888;color:#333;border-style:dashed}
-html[data-theme=harvey] .tag.red {background:#2b2b2b;border-color:#2b2b2b;color:#fff}
-html[data-theme=harvey] .studio-tool {border-radius:4px;background:#fff;border-color:#d8d8d8;box-shadow:none;padding:23px 20px 28px}
-html[data-theme=harvey] .studio-tool h3 {font-family:var(--serif);font-size:20px;font-weight:500}
-html[data-theme=harvey] .studio-tool:first-child {background:#151515;border-color:#151515;color:#fff}
-html[data-theme=harvey] .studio-tool:first-child h3,
-html[data-theme=harvey] .studio-tool:first-child>div {color:#fff}
-html[data-theme=harvey] .studio-tool:first-child p,
-html[data-theme=harvey] .studio-tool:first-child svg,
-html[data-theme=harvey] .studio-tool:first-child>span {color:#c3c3c3}
-html[data-theme=harvey] .studio-tool:hover {transform:none;border-color:#222;background:#f5f5f5}
-html[data-theme=harvey] .studio-tool:first-child:hover {background:#292929}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metrics {padding:25px 0 24px;border-color:#dedede}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value strong {font:400 39px/1.45 var(--serif);letter-spacing:-1px;color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-title {letter-spacing:0;color:#606060}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric p {color:#757575}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-work-grid {gap:30px;margin-top:30px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title h2 {font-family:var(--serif);font-size:22px;font-weight:500;letter-spacing:0}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .section-index {font-size:10px;color:#888}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case-list {border-top:1px solid #222}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case {padding:19px 0;gap:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case h3 {font-size:13px;font-weight:500}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case-no {font-family:var(--sans);font-size:10px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention {background:#f6f6f6;border:1px solid #dedede;border-radius:4px;padding:22px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention h2 {font-size:20px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-summary>strong {font:400 44px/1.3 var(--serif);color:#111}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments {height:4px;border-radius:0;gap:2px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .prepare,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.prepare {background:#d0d0d0}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .running,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.running {background:#777}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .attention,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.attention {background:#aaa}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .complete,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.complete {background:#222}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .metric-attention {background:#e9e9e9;border:1px solid #bbb;color:#222;border-radius:2px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag {border:1px solid #ddd;border-radius:3px;background:#f5f5f5;color:#575757;line-height:1.3}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.green {background:#ededed;border-color:#ededed;color:#333}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.blue {background:#eee;border-color:#ccc;color:#222}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.amber {background:#fff;border-color:#888;color:#333;border-style:dashed}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.red {background:#2b2b2b;border-color:#2b2b2b;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool {border-radius:4px;background:#fff;border-color:#d8d8d8;box-shadow:none;padding:23px 20px 28px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {font-family:var(--serif);font-size:20px;font-weight:500}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child {background:#151515;border-color:#151515;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child h3,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child>div {color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child svg,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child>span {color:#c3c3c3}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:hover {transform:none;border-color:#222;background:#f5f5f5}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child:hover {background:#292929}
 
 /* The same black-and-white vocabulary carries through every working screen. */
-html[data-theme=harvey] .page-heading h1,
-html[data-theme=harvey] .case-heading h1,
-html[data-theme=harvey] .case-card-title h3,
-html[data-theme=harvey] .markdown h2 {font-weight:400}
-html[data-theme=harvey] .case-card:hover {border-color:#aaa;box-shadow:none}
-html[data-theme=harvey] .button,
-html[data-theme=harvey] .card {box-shadow:none}
-html[data-theme=harvey] .notice.warning,
-html[data-theme=harvey] .inline-notice.error {background:#f5f5f5;color:#333;border-color:#bbb;border-left:3px solid #333}
-html[data-theme=harvey] .inline-notice.success {background:#f5f5f5;color:#222;border-color:#ddd}
-html[data-theme=harvey] .danger {color:#333;text-decoration:underline;text-underline-offset:3px}
-html[data-theme=harvey] .button.danger-solid {background:#111;border-color:#111;color:#fff}
-html[data-theme=harvey] .research-message.user>div {background:#f2f2f2;border-radius:5px;color:#222}
-html[data-theme=harvey] .research-chat-turn {border-left-color:#333;background:#f8f8f8}
-html[data-theme=harvey] .research-welcome-icon {background:#111;color:#fff;border-radius:5px}
-html[data-theme=harvey] .research-welcome h3 {font-weight:400}
-html[data-theme=harvey] .research-prompt:hover:not(:disabled) {background:#f6f6f6;border-color:#999}
-html[data-theme=harvey] .research-source-row.is-selected {background:#f5f5f5}
-html[data-theme=harvey] .design-help {border-radius:6px;box-shadow:0 20px 80px #0003}
-html[data-theme=harvey] .design-help::backdrop {background:#0006}
-html[data-theme=harvey] .design-help-icon,
-html[data-theme=harvey] .design-help-note {border-radius:4px}
-html[data-theme=harvey] .login-card {border:1px solid #d5d5d5}
-html[data-theme=harvey] .login-brand .brand-mark {background:#111;border-color:#111;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .page-heading h1,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-heading h1,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-card-title h3,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .markdown h2 {font-weight:400}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-card:hover {border-color:#aaa;box-shadow:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .card {box-shadow:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .notice.warning,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .inline-notice.error {background:#f5f5f5;color:#333;border-color:#bbb;border-left:3px solid #333}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .inline-notice.success {background:#f5f5f5;color:#222;border-color:#ddd}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .danger {color:#333;text-decoration:underline;text-underline-offset:3px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.danger-solid {background:#111;border-color:#111;color:#fff}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-message.user>div {background:#f2f2f2;border-radius:5px;color:#222}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-chat-turn {border-left-color:#333;background:#f8f8f8}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome-icon {background:#111;color:#fff;border-radius:5px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome h3 {font-weight:400}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-prompt:hover:not(:disabled) {background:#f6f6f6;border-color:#999}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-source-row.is-selected {background:#f5f5f5}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help {border-radius:6px;box-shadow:0 20px 80px #0003}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help::backdrop {background:#0006}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help-icon,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help-note {border-radius:4px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .login-card {border:1px solid #d5d5d5}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .login-brand .brand-mark {background:#111;border-color:#111;color:#fff}
 
 @media(min-width:651px) {
-  html[data-theme=harvey] .navigation-collapsed .sidebar .brand {margin-left:0;justify-content:center}
-  html[data-theme=harvey] .navigation-collapsed .sidebar .brand-mark {display:flex;border:0;background:transparent;color:#fff}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar .brand {margin-left:0;justify-content:center}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar .brand-mark {display:flex;border:0;background:transparent;color:#fff}
 }
 @media(max-width:1200px) {
-  html[data-theme=harvey] .hero-copy {column-gap:28px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
-  html[data-theme=harvey] .studio-hero h1 {font-size:44px}
-  html[data-theme=harvey] .hero-copy>p {font-size:13px}
-  html[data-theme=harvey] .hero-actions {gap:15px}
-  html[data-theme=harvey] .hero-actions .button {padding:10px 15px}
-  html[data-theme=harvey] .hero-secondary {font-size:11px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy {column-gap:28px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:44px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {font-size:13px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions {gap:15px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button {padding:10px 15px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary {font-size:11px}
 }
 @media(max-width:900px) {
-  html[data-theme=harvey] .studio-hero {padding:28px 0}
-  html[data-theme=harvey] .hero-copy {display:block}
-  html[data-theme=harvey] .hero-kicker {margin-bottom:22px}
-  html[data-theme=harvey] .studio-hero h1 {font-size:44px;margin-bottom:20px}
-  html[data-theme=harvey] .hero-copy>p {max-width:100%;margin-bottom:20px}
-  html[data-theme=harvey] .hero-aside {display:none}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero {padding:28px 0}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy {display:block}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker {margin-bottom:22px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:44px;margin-bottom:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {max-width:100%;margin-bottom:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-aside {display:none}
 }
 @media(max-width:650px) {
-  html[data-theme=harvey] .sidebar {padding:15px 18px}
-  html[data-theme=harvey] .studio-hero {padding:30px 0 27px}
-  html[data-theme=harvey] .studio-hero h1 {font-size:43px;letter-spacing:0;line-height:1.3;margin-bottom:18px}
-  html[data-theme=harvey] .hero-copy>p {font-size:13px;line-height:1.9}
-  html[data-theme=harvey] .hero-actions {gap:22px}
-  html[data-theme=harvey] .hero-kicker {font-size:10px;letter-spacing:1px;margin-bottom:23px}
-  html[data-theme=harvey] .studio-metrics {padding:23px 0}
-  html[data-theme=harvey] .studio-metric-value strong {font-size:34px}
-  html[data-theme=harvey] .studio-section-title h2 {font-size:20px}
-  html[data-theme=harvey] .studio-work-grid {margin-top:28px}
-  html[data-theme=harvey] .studio-attention {padding:20px}
-  html[data-theme=harvey] .studio-tool {padding:20px 16px 27px}
-  html[data-theme=harvey] .studio-tool h3 {font-size:18px}
-  html[data-theme=harvey] .style-switcher button {padding:6px 8px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar {padding:15px 18px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero {padding:30px 0 27px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:43px;letter-spacing:0;line-height:1.3;margin-bottom:18px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {font-size:13px;line-height:1.9}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions {gap:22px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker {font-size:10px;letter-spacing:1px;margin-bottom:23px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metrics {padding:23px 0}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value strong {font-size:34px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title h2 {font-size:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-work-grid {margin-top:28px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention {padding:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool {padding:20px 16px 27px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {font-size:18px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button {padding:6px 8px}
 }
 @media print {
-  html[data-theme=harvey] .studio-tool:first-child {background:#fff;color:#111}
-  html[data-theme=harvey] .studio-tool:first-child h3,
-  html[data-theme=harvey] .studio-tool:first-child p {color:#111}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child {background:#fff;color:#111}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child h3,
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child p {color:#111}
+}
+
+/* The accent editions share Harvey's editorial layout. White work surfaces
+   and black body text are balanced with tinted panels and a few solid actions. */
+html[data-theme=harvey-blue] {
+  --law-accent:#234f7d;
+  --law-accent-strong:#163653;
+  --law-accent-soft:#edf3f9;
+  --law-accent-tint:#f5f8fc;
+  --law-accent-line:#d4e1ed;
+}
+html[data-theme=harvey-red] {
+  --law-accent:#a52d39;
+  --law-accent-strong:#78212a;
+  --law-accent-soft:#f9eded;
+  --law-accent-tint:#fcf5f5;
+  --law-accent-line:#ebcdd1;
+}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) {
+  --canvas:#fff;
+  --surface:#fff;
+  --surface-soft:#fafafa;
+  --ink:#111;
+  --ink-soft:#414141;
+  --muted:#717171;
+  --accent:#111;
+  --accent-hover:#333;
+  --accent-soft:#f4f4f4;
+  --sidebar-bg:#fff;
+  --sidebar-ink:#111;
+  --line:#e1e1e1;
+}
+
+/* A white navigation column with an accent rule and black labels. */
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar {background:#fff;border-right:1px solid #e1e1e1}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .brand {color:#111;position:relative}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .brand::after {content:"";position:absolute;left:0;bottom:-13px;width:36px;height:3px;background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .workspace-label {color:#626262}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .workspace-label i {background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .nav-label {color:#747474}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a {color:#333;border-radius:2px;border-left:3px solid transparent;padding-left:10px}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a.active {background:var(--law-accent-soft);border-left:3px solid var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a:hover:not(.active) {background:var(--law-accent-tint);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a.active>svg {color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .count,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link .tag {background:#f0f0f0;color:#555}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link {color:#333}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link.active {background:var(--law-accent-soft);color:#111;border-left:3px solid var(--law-accent);border-radius:2px}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .case-navigation,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .sidebar-note,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .profile {border-color:#e1e1e1}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note {color:#333}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note p {color:#717171}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note svg {color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .avatar {background:#fff;border:1px solid var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .profile .icon-button:hover {background:#f3f3f3;color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .topbar {box-shadow:inset 0 2px var(--law-accent)}
+
+/* A pale progress panel and one solid tool card give the accent a clear role. */
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker>span {width:6px;height:6px;background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary svg,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title>a svg,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-title svg {color:var(--law-accent);opacity:1}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case-list {border-top:2px solid var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention {background:var(--law-accent-soft);border-color:var(--law-accent-line);border-top:3px solid var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention .live-label,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention .progress-summary>span,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention .progress-summary small {color:#606060}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention .attention-link {border-color:var(--law-accent-line);color:#222}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .live-label i,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .complete,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.complete {background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool {background:#fff;border:1px solid #ddd;border-top:2px solid var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool>div,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool>div svg {color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:hover {background:var(--law-accent-tint);border-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child {background:var(--law-accent);border-color:var(--law-accent);color:#fff}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child h3,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child p,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child>span,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child>div,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child svg {color:#fff}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child:hover {background:var(--law-accent-strong);border-color:var(--law-accent-strong)}
+
+/* Solid primary actions use white type for contrast; secondary actions stay white. */
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.primary,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button {background:var(--law-accent);color:#fff;border:1px solid var(--law-accent);box-shadow:none;font-weight:600}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.primary:hover:not(:disabled),
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button:hover {background:var(--law-accent-strong);color:#fff;border-color:var(--law-accent-strong);box-shadow:none}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.primary svg,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button svg {color:#fff}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) :focus-visible {outline-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) input:focus,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) textarea:focus,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) select:focus {border-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) input[type=checkbox] {accent-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-composer:focus-within {box-shadow:inset 0 -2px var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome-icon {background:var(--law-accent-soft);border:1px solid var(--law-accent-line);color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-message.user>div,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-source-row.is-selected {background:var(--law-accent-soft);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-chat-turn,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .quote-card {border-left-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .citation {background:#fff;border-color:var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .timeline-dot,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-progress-track>span {background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-agent-number,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .document-step>span {background:#fff;border:1px solid var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .facet-trigger.has-selection,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .filter-chip {background:var(--law-accent-soft);border-color:var(--law-accent-line);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tabs a.active {border-color:var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.red {background:#fff;border-color:#555;border-left:3px solid #333;color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.danger-solid {background:#fff;color:#111;border-color:#333;text-decoration:underline}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button[aria-pressed=true] {background:var(--law-accent-soft);border-color:var(--law-accent);box-shadow:none;color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button[aria-pressed=true] i {background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .login-brand .brand-mark {background:#fff;border-color:var(--law-accent);color:var(--law-accent)}
+
+/* Keep all theme choices accessible on tablet and mobile screens. */
+.compact-theme-picker {display:none}
+.compact-theme-picker select {width:auto;min-width:96px;height:34px;min-height:34px;font-size:12px;padding:5px 25px 5px 10px;border-radius:4px;background:#fff;color:#111}
+.compact-theme-picker>span {flex-shrink:0;white-space:nowrap;font-size:11px;color:var(--muted)}
+@media(min-width:651px) {
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar .brand-mark {color:var(--law-accent)}
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar .brand::after {left:50%;transform:translateX(-50%);width:24px}
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar nav a {padding-left:0;border-left:0}
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar nav a.active {box-shadow:inset 3px 0 var(--law-accent)}
+}
+@media(max-width:1050px) {
+  .style-switcher {display:none}
+  .compact-theme-picker {display:flex;flex-direction:row;align-items:center;gap:6px;margin:0}
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .compact-theme-picker select {border-color:var(--law-accent)}
+}
+@media(max-width:650px) {
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a {padding-left:7px}
+}
+
+/* The reference screenshot's dominant blue, converted from its embedded
+   display profile to sRGB, paired with a cool, light-gray navigation column. */
+html[data-theme=harvey-bright-blue] {
+  --law-accent:#2c67c5;
+  --law-accent-strong:#2053a3;
+  --law-accent-soft:#edf3fd;
+  --law-accent-tint:#f5f8fe;
+  --law-accent-line:#d4e1f5;
+  --sidebar-bg:#fafafb;
+}
+
+html[data-theme=harvey-bright-blue] .sidebar {
+  background:var(--sidebar-bg);
+  border-right:1px solid #ebedf0;
+}
+html[data-theme=harvey-bright-blue] .sidebar nav a.active,
+html[data-theme=harvey-bright-blue] .sidebar .settings-link.active {
+  background:#e1eafb;
+}
+html[data-theme=harvey-bright-blue] .sidebar nav a:hover:not(.active) {
+  background:#f3f4f6;
+}
+html[data-theme=harvey-bright-blue] .sidebar .count,
+html[data-theme=harvey-bright-blue] .sidebar .settings-link .tag {
+  background:#eceef2;
+  color:#444;
+}
+html[data-theme=harvey-bright-blue] .sidebar .case-navigation,
+html[data-theme=harvey-bright-blue] .sidebar .sidebar-note,
+html[data-theme=harvey-bright-blue] .sidebar .profile {
+  border-color:#e8ebef;
+}
+
+/* A modest readability increase across the Harvey-based editions. */
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) body {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-navigation nav a {font-size:13px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .workspace-label,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .breadcrumb,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .profile small {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .nav-label,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .brand-copy small {font-size:11px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note strong {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note p {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-link,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .profile {font-size:13px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-mode {font-size:11px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .small {font-size:13px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) label {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) input,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) textarea,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) select {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag {font-size:12px}
+
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:clamp(42px,4.4vw,66px)}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {font-size:16px;max-width:360px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-date {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-title,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value small {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value strong {font-size:42px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case h3 {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case p {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case>.tag {font-size:11px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title h2 {font-size:24px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title>a,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title>span {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention h2 {font-size:21px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-summary>span,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list>div,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list strong,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .attention-link {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {font-size:21px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool p {font-size:12px;max-width:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-footer {font-size:11px}
+
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .page-heading p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .section-heading p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .notice,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .inline-notice,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-card-claims {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-meta,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-position-summary strong,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-card-title p {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-grid>.case-card {min-width:0}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-details-form label {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .table-wrap th,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .table-wrap td {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .search-input-line input {font-size:16px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .facet-label {font-size:13px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .facet-trigger,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .facet-option,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .search-result blockquote {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .source-fulltext,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .similar-reader-body {font-size:16px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .markdown,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-answer,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-message.user>div,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-composer textarea {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-conversation-header strong {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome>p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-source-row strong,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome .research-prompt strong {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-prompt small,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-source-row small {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .timeline-card p {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-card p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-coordinator-heading p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-candidate strong {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-form label,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .preview-output,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help p {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-form input,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-form textarea,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-form select {font-size:15px}
+
+@media(max-width:1200px) {
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:46px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {font-size:14px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button,
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary {font-size:13px}
+}
+@media(max-width:800px) {
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-mode {font-size:0}
+}
+@media(max-width:650px) {
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:45px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker {font-size:11px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value strong {font-size:36px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title h2 {font-size:22px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case h3 {font-size:14px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case p {font-size:11px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case>.tag {font-size:10px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {font-size:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-page>.tabs a {font-size:13px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .compact-theme-picker select {font-size:13px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .compact-theme-picker>span {font-size:12px}
 }

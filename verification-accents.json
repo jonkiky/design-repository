@@ -1,0 +1,805 @@
+{
+  "date": "2026-11-11",
+  "themesAdded": [
+    "harvey-blue",
+    "harvey-red"
+  ],
+  "labels": [
+    "黑白蓝",
+    "黑白红"
+  ],
+  "originalMonochromeRetained": true,
+  "language": "zh-CN",
+  "typescript": "passed",
+  "existingAssertions": 29,
+  "originalApplicationSources": "unchanged",
+  "entryPoints": 7,
+  "assetContentHashes": "passed",
+  "desktop": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1280,
+      "nonNeutralText": [],
+      "route": "#/search",
+      "theme": "harvey-blue",
+      "width": 1280
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/settings",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/overview",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/materials",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/similar-cases",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/timeline",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/evidence",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1280,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/research",
+      "theme": "harvey-blue",
+      "width": 1280
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/documents",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/tasks",
+      "theme": "harvey-blue",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1280,
+      "nonNeutralText": [],
+      "route": "#/search",
+      "theme": "harvey-red",
+      "width": 1280
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/settings",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/overview",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/materials",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/similar-cases",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/timeline",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/evidence",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1280,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/research",
+      "theme": "harvey-red",
+      "width": 1280
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/documents",
+      "theme": "harvey-red",
+      "width": 1265
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "bodyFont": "15px",
+      "content": 1265,
+      "nonNeutralText": [],
+      "route": "#/cases/demo-housing/tasks",
+      "theme": "harvey-red",
+      "width": 1265
+    }
+  ],
+  "mobile": [
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 390,
+      "picker": "flex",
+      "route": "#/search",
+      "theme": "harvey-blue",
+      "width": 390
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/settings",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/overview",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/materials",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/similar-cases",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/timeline",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/evidence",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/research",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/documents",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/tasks",
+      "theme": "harvey-blue",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 390,
+      "picker": "flex",
+      "route": "#/search",
+      "theme": "harvey-red",
+      "width": 390
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/settings",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/overview",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/materials",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/similar-cases",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/timeline",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/evidence",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/research",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/documents",
+      "theme": "harvey-red",
+      "width": 375
+    },
+    {
+      "content": 375,
+      "picker": "flex",
+      "route": "#/cases/demo-housing/tasks",
+      "theme": "harvey-red",
+      "width": 375
+    }
+  ],
+  "smallScreenChecks": [
+    {
+      "content": 305,
+      "pickerRight": 289,
+      "route": "#/",
+      "width": 305
+    },
+    {
+      "content": 305,
+      "pickerRight": 289,
+      "route": "#/cases",
+      "width": 305
+    }
+  ],
+  "tablet": {
+    "content": 753,
+    "controlsRight": 733,
+    "width": 753
+  },
+  "draftPreservedAcrossFiveStyles": [
+    {
+      "composerBottom": 779,
+      "content": 1280,
+      "draft": "请整理本案需要进一步核对的材料。",
+      "font": "15px",
+      "theme": "harvey-red",
+      "viewportHeight": 800,
+      "width": 1280
+    },
+    {
+      "composerBottom": 779,
+      "content": 1280,
+      "draft": "请整理本案需要进一步核对的材料。",
+      "font": "15px",
+      "theme": "harvey",
+      "viewportHeight": 800,
+      "width": 1280
+    },
+    {
+      "composerBottom": 779,
+      "content": 1280,
+      "draft": "请整理本案需要进一步核对的材料。",
+      "font": "14px",
+      "theme": "ao",
+      "viewportHeight": 800,
+      "width": 1280
+    },
+    {
+      "composerBottom": 779,
+      "content": 1280,
+      "draft": "请整理本案需要进一步核对的材料。",
+      "font": "14px",
+      "theme": "cooley",
+      "viewportHeight": 800,
+      "width": 1280
+    },
+    {
+      "composerBottom": 779,
+      "content": 1280,
+      "draft": "请整理本案需要进一步核对的材料。",
+      "font": "15px",
+      "theme": "harvey-blue",
+      "viewportHeight": 800,
+      "width": 1280
+    }
+  ],
+  "mobileThemeSelector": "verified; label remains on one line",
+  "consoleErrors": [],
+  "realApi": "No API changes; prior integration verification retained. Live model calls not rerun for visual changes.",
+  "backgroundUpdate": {
+    "date": "2026-11-11",
+    "solidSurfaces": [
+      "primary actions",
+      "featured similar-case tool"
+    ],
+    "tintedSurfaces": [
+      "active navigation",
+      "progress panel",
+      "selected filters",
+      "research messages"
+    ],
+    "whiteTextContrast": {
+      "blue": 8.45,
+      "red": 6.92
+    },
+    "checks": [
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 1265,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/",
+        "theme": "harvey-blue",
+        "width": 1265
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 1265,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/cases",
+        "theme": "harvey-blue",
+        "width": 1265
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 1280,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/search",
+        "theme": "harvey-blue",
+        "width": 1280
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 1280,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/cases/demo-housing/research",
+        "theme": "harvey-blue",
+        "width": 1280
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 1265,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/",
+        "theme": "harvey-red",
+        "width": 1265
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 1265,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/cases",
+        "theme": "harvey-red",
+        "width": 1265
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 1280,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/search",
+        "theme": "harvey-red",
+        "width": 1280
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 1280,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/cases/demo-housing/research",
+        "theme": "harvey-red",
+        "width": 1280
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 375,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/",
+        "theme": "harvey-blue",
+        "width": 375
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 375,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/cases",
+        "theme": "harvey-blue",
+        "width": 375
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 390,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/search",
+        "theme": "harvey-blue",
+        "width": 390
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 375,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(35, 79, 125)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/cases/demo-housing/research",
+        "theme": "harvey-blue",
+        "width": 375
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 375,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/",
+        "theme": "harvey-red",
+        "width": 375
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 375,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/cases",
+        "theme": "harvey-red",
+        "width": 375
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 390,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/search",
+        "theme": "harvey-red",
+        "width": 390
+      },
+      {
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyText": "rgb(17, 17, 17)",
+        "content": 375,
+        "font": "15px",
+        "primaryButtons": [
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          },
+          {
+            "background": "rgb(165, 45, 57)",
+            "text": "rgb(255, 255, 255)"
+          }
+        ],
+        "route": "#/cases/demo-housing/research",
+        "theme": "harvey-red",
+        "width": 375
+      }
+    ],
+    "monochrome": {
+      "font": "15px",
+      "primary": "rgb(17, 17, 17)",
+      "sidebar": "rgb(17, 17, 17)",
+      "theme": "harvey"
+    },
+    "consoleErrors": []
+  }
+}

@@ -25,7 +25,8 @@ async function main() {
   css+='\n'+fs.readFileSync(path.join(root,'src/themes.css'),'utf8');
   // Route every legacy chromatic color through a theme token. This keeps the
   // original cascade and fixed-position overlays intact, unlike a CSS filter.
-  // A&O and Cooley use the exact original fallback; only Harvey overrides it.
+  // A&O and Cooley use the exact original fallback. The Harvey family starts
+  // neutral; the blue/red editions add controlled accents in their own layer.
   const monochrome=new Map();
   css=css.replace(/#([\da-f]{8}|[\da-f]{6}|[\da-f]{4}|[\da-f]{3})\b/gi,(original,hex)=>{
     hex=hex.toLowerCase();
@@ -37,24 +38,27 @@ async function main() {
     monochrome.set(token,'#'+gray.repeat(3)+hex.slice(6));
     return 'var('+token+','+original+')';
   });
-  css+='\nhtml[data-theme=harvey]{'+[...monochrome].map(([key,value])=>key+':'+value).join(';')+'}\n';
+  css+='\nhtml:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]){'+[...monochrome].map(([key,value])=>key+':'+value).join(';')+'}\n';
   css+=fs.readFileSync(path.join(root,'src/harvey.css'),'utf8');
+  css+='\n'+fs.readFileSync(path.join(root,'src/harvey-accents.css'),'utf8');
+  css+='\n'+fs.readFileSync(path.join(root,'src/harvey-bright-blue.css'),'utf8');
+  css+='\n'+fs.readFileSync(path.join(root,'src/harvey-type.css'),'utf8');
   fs.writeFileSync(path.join(root,'assets/app.css'),css);
   const cssVersion=createHash('sha256').update(css).digest('hex').slice(0,12);
   const jsVersion=createHash('sha256').update(fs.readFileSync(path.join(root,'assets/app.js'))).digest('hex').slice(0,12);
-  const pages={index:'',harvey:'harvey','harvey-black-white':'harvey','ao-shearman':'ao',cooley:'cooley'};
-  const titles={index:'三种设计 · 自由切换',harvey:'黑白 · 法律研究工作台','harvey-black-white':'黑白 · 法律研究工作台','ao-shearman':'深庭 · 专业工作台',cooley:'珊瑚 · 灵感工作台'};
+  const pages={index:'',harvey:'harvey','harvey-black-white':'harvey','harvey-blue':'harvey-blue','harvey-red':'harvey-red','harvey-bright-blue':'harvey-bright-blue','ao-shearman':'ao',cooley:'cooley'};
+  const titles={index:'六种设计 · 自由切换',harvey:'黑白 · 法律研究工作台','harvey-black-white':'黑白 · 法律研究工作台','harvey-blue':'黑白蓝 · 法律研究工作台','harvey-red':'黑白红 · 法律研究工作台','harvey-bright-blue':'蓝灰 · 法律研究工作台','ao-shearman':'深庭 · 专业工作台',cooley:'珊瑚 · 灵感工作台'};
   for(const [name,theme] of Object.entries(pages)){
     fs.writeFileSync(path.join(root,name+'.html'),`<!doctype html>
 <html lang="zh-CN" data-theme="${theme||'harvey'}"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light"><meta name="theme-color" content="#ffffff">
 <title>裁研 · ${titles[name]}</title>
-<script>(function(){var names=['harvey','ao','cooley'];var t=new URLSearchParams(location.search).get('theme')||${JSON.stringify(theme)};try{if(!t)t=localStorage.getItem('caiyan-design-theme')}catch(e){}if(names.indexOf(t)<0)t='harvey';document.documentElement.dataset.theme=t})();</script>
+<script>(function(){var names=['harvey','harvey-blue','harvey-red','harvey-bright-blue','ao','cooley'];var t=new URLSearchParams(location.search).get('theme')||${JSON.stringify(theme)};try{if(!t)t=localStorage.getItem('caiyan-design-theme')}catch(e){}if(names.indexOf(t)<0)t='harvey';document.documentElement.dataset.theme=t})();</script>
 <link rel="stylesheet" href="./assets/app.css?v=${cssVersion}"></head><body><div id="root"></div>
 <noscript>请启用浏览器的 JavaScript 以使用裁研工作台。</noscript>
 <script src="./assets/app.js?v=${jsVersion}" defer></script></body></html>\n`);
   }
-  console.log('Built five HTML entry points, including the Harvey black-and-white edition.');
+  console.log('Built eight HTML entry points for six switchable designs.');
 }
 main().catch(error=>{console.error(error);process.exit(1)});

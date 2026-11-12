@@ -1,0 +1,133 @@
+/* The accent editions share Harvey's editorial layout. White work surfaces
+   and black body text are balanced with tinted panels and a few solid actions. */
+html[data-theme=harvey-blue] {
+  --law-accent:#234f7d;
+  --law-accent-strong:#163653;
+  --law-accent-soft:#edf3f9;
+  --law-accent-tint:#f5f8fc;
+  --law-accent-line:#d4e1ed;
+}
+html[data-theme=harvey-red] {
+  --law-accent:#a52d39;
+  --law-accent-strong:#78212a;
+  --law-accent-soft:#f9eded;
+  --law-accent-tint:#fcf5f5;
+  --law-accent-line:#ebcdd1;
+}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) {
+  --canvas:#fff;
+  --surface:#fff;
+  --surface-soft:#fafafa;
+  --ink:#111;
+  --ink-soft:#414141;
+  --muted:#717171;
+  --accent:#111;
+  --accent-hover:#333;
+  --accent-soft:#f4f4f4;
+  --sidebar-bg:#fff;
+  --sidebar-ink:#111;
+  --line:#e1e1e1;
+}
+
+/* A white navigation column with an accent rule and black labels. */
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar {background:#fff;border-right:1px solid #e1e1e1}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .brand {color:#111;position:relative}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .brand::after {content:"";position:absolute;left:0;bottom:-13px;width:36px;height:3px;background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .workspace-label {color:#626262}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .workspace-label i {background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .nav-label {color:#747474}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a {color:#333;border-radius:2px;border-left:3px solid transparent;padding-left:10px}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a.active {background:var(--law-accent-soft);border-left:3px solid var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a:hover:not(.active) {background:var(--law-accent-tint);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a.active>svg {color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .count,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link .tag {background:#f0f0f0;color:#555}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link {color:#333}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .settings-link.active {background:var(--law-accent-soft);color:#111;border-left:3px solid var(--law-accent);border-radius:2px}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .case-navigation,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .sidebar-note,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .profile {border-color:#e1e1e1}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note {color:#333}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note p {color:#717171}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note svg {color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar .avatar {background:#fff;border:1px solid var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .profile .icon-button:hover {background:#f3f3f3;color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .topbar {box-shadow:inset 0 2px var(--law-accent)}
+
+/* A pale progress panel and one solid tool card give the accent a clear role. */
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker>span {width:6px;height:6px;background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary svg,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title>a svg,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-title svg {color:var(--law-accent);opacity:1}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case-list {border-top:2px solid var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention {background:var(--law-accent-soft);border-color:var(--law-accent-line);border-top:3px solid var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention .live-label,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention .progress-summary>span,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention .progress-summary small {color:#606060}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention .attention-link {border-color:var(--law-accent-line);color:#222}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .live-label i,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-segments .complete,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list i.complete {background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool {background:#fff;border:1px solid #ddd;border-top:2px solid var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool>div,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool>div svg {color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:hover {background:var(--law-accent-tint);border-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child {background:var(--law-accent);border-color:var(--law-accent);color:#fff}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child h3,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child p,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child>span,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child>div,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child svg {color:#fff}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool:first-child:hover {background:var(--law-accent-strong);border-color:var(--law-accent-strong)}
+
+/* Solid primary actions use white type for contrast; secondary actions stay white. */
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.primary,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button {background:var(--law-accent);color:#fff;border:1px solid var(--law-accent);box-shadow:none;font-weight:600}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.primary:hover:not(:disabled),
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button:hover {background:var(--law-accent-strong);color:#fff;border-color:var(--law-accent-strong);box-shadow:none}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.primary svg,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button svg {color:#fff}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) :focus-visible {outline-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) input:focus,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) textarea:focus,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) select:focus {border-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) input[type=checkbox] {accent-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-composer:focus-within {box-shadow:inset 0 -2px var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome-icon {background:var(--law-accent-soft);border:1px solid var(--law-accent-line);color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-message.user>div,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-source-row.is-selected {background:var(--law-accent-soft);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-chat-turn,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .quote-card {border-left-color:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .citation {background:#fff;border-color:var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .timeline-dot,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-progress-track>span {background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-agent-number,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .document-step>span {background:#fff;border:1px solid var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .facet-trigger.has-selection,
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .filter-chip {background:var(--law-accent-soft);border-color:var(--law-accent-line);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tabs a.active {border-color:var(--law-accent);color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag.red {background:#fff;border-color:#555;border-left:3px solid #333;color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button.danger-solid {background:#fff;color:#111;border-color:#333;text-decoration:underline}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button[aria-pressed=true] {background:var(--law-accent-soft);border-color:var(--law-accent);box-shadow:none;color:#111}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button[aria-pressed=true] i {background:var(--law-accent)}
+html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .login-brand .brand-mark {background:#fff;border-color:var(--law-accent);color:var(--law-accent)}
+
+/* Keep all theme choices accessible on tablet and mobile screens. */
+.compact-theme-picker {display:none}
+.compact-theme-picker select {width:auto;min-width:96px;height:34px;min-height:34px;font-size:12px;padding:5px 25px 5px 10px;border-radius:4px;background:#fff;color:#111}
+.compact-theme-picker>span {flex-shrink:0;white-space:nowrap;font-size:11px;color:var(--muted)}
+@media(min-width:651px) {
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar .brand-mark {color:var(--law-accent)}
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar .brand::after {left:50%;transform:translateX(-50%);width:24px}
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar nav a {padding-left:0;border-left:0}
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .navigation-collapsed .sidebar nav a.active {box-shadow:inset 3px 0 var(--law-accent)}
+}
+@media(max-width:1050px) {
+  .style-switcher {display:none}
+  .compact-theme-picker {display:flex;flex-direction:row;align-items:center;gap:6px;margin:0}
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .compact-theme-picker select {border-color:var(--law-accent)}
+}
+@media(max-width:650px) {
+  html:is([data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a {padding-left:7px}
+}

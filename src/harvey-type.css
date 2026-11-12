@@ -1,0 +1,111 @@
+/* A modest readability increase across the Harvey-based editions. */
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) body {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar nav a {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-navigation nav a {font-size:13px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .workspace-label,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .breadcrumb,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .profile small {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .nav-label,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .brand-copy small {font-size:11px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note strong {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .sidebar-note p {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-link,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .profile {font-size:13px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .style-switcher button {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-mode {font-size:11px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .small {font-size:13px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .button,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) label {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) input,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) textarea,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) select {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .tag {font-size:12px}
+
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:clamp(42px,4.4vw,66px)}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {font-size:16px;max-width:360px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-date {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-title,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value small {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value strong {font-size:42px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case h3 {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case p {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case>.tag {font-size:11px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title h2 {font-size:24px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title>a,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title>span {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-attention h2 {font-size:21px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .progress-summary>span,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list>div,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-status-list strong,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .attention-link {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {font-size:21px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool p {font-size:12px;max-width:none}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-footer {font-size:11px}
+
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .page-heading p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .section-heading p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .notice,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .inline-notice,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-card-claims {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-meta,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-position-summary strong,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-card-title p {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-grid>.case-card {min-width:0}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-details-form label {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .table-wrap th,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .table-wrap td {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .search-input-line input {font-size:16px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .facet-label {font-size:13px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .facet-trigger,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .facet-option,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .search-result blockquote {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .source-fulltext,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .similar-reader-body {font-size:16px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .markdown,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-answer,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-message.user>div,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-composer textarea {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-conversation-header strong {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome>p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-source-row strong,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-welcome .research-prompt strong {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-prompt small,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .research-source-row small {font-size:12px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .timeline-card p {font-size:15px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-card p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-coordinator-heading p,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .evidence-candidate strong {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-form label,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .preview-output,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-help p {font-size:14px}
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-form input,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-form textarea,
+html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .settings-form select {font-size:15px}
+
+@media(max-width:1200px) {
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:46px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-copy>p {font-size:14px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-actions .button,
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-secondary {font-size:13px}
+}
+@media(max-width:800px) {
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .design-mode {font-size:0}
+}
+@media(max-width:650px) {
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-hero h1 {font-size:45px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .hero-kicker {font-size:11px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-metric-value strong {font-size:36px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-section-title h2 {font-size:22px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case h3 {font-size:14px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case p {font-size:11px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-case>.tag {font-size:10px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .studio-tool h3 {font-size:20px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .case-page>.tabs a {font-size:13px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .compact-theme-picker select {font-size:13px}
+  html:is([data-theme=harvey],[data-theme=harvey-blue],[data-theme=harvey-red],[data-theme=harvey-bright-blue]) .compact-theme-picker>span {font-size:12px}
+}

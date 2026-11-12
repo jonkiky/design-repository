@@ -1,0 +1,32 @@
+/* The reference screenshot's dominant blue, converted from its embedded
+   display profile to sRGB, paired with a cool, light-gray navigation column. */
+html[data-theme=harvey-bright-blue] {
+  --law-accent:#2c67c5;
+  --law-accent-strong:#2053a3;
+  --law-accent-soft:#edf3fd;
+  --law-accent-tint:#f5f8fe;
+  --law-accent-line:#d4e1f5;
+  --sidebar-bg:#fafafb;
+}
+
+html[data-theme=harvey-bright-blue] .sidebar {
+  background:var(--sidebar-bg);
+  border-right:1px solid #ebedf0;
+}
+html[data-theme=harvey-bright-blue] .sidebar nav a.active,
+html[data-theme=harvey-bright-blue] .sidebar .settings-link.active {
+  background:#e1eafb;
+}
+html[data-theme=harvey-bright-blue] .sidebar nav a:hover:not(.active) {
+  background:#f3f4f6;
+}
+html[data-theme=harvey-bright-blue] .sidebar .count,
+html[data-theme=harvey-bright-blue] .sidebar .settings-link .tag {
+  background:#eceef2;
+  color:#444;
+}
+html[data-theme=harvey-bright-blue] .sidebar .case-navigation,
+html[data-theme=harvey-bright-blue] .sidebar .sidebar-note,
+html[data-theme=harvey-bright-blue] .sidebar .profile {
+  border-color:#e8ebef;
+}
